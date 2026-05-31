@@ -7,3 +7,14 @@ body {
     padding-bottom: 80px;
     background-color: #f8f1e7;
 }
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
