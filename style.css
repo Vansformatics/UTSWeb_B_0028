@@ -45,3 +45,8 @@ body {
 .dark-mode .navbar {
     background-color: #ededed !important;
 }
+
+.dark-mode .card {
+    background-color: #2b2b2b;
+    color: white;
+}
