@@ -14,7 +14,13 @@ body {
     line-height: 1.2;
 }
 
+.hero h1 span {
+    font-family: 'Pacifico', cursive;
+    color: #d6904a;
+}
+
 .hero p {
     font-size: 18px;
     line-height: 1.6;
 }
+
