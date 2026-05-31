@@ -28,3 +28,12 @@ body {
     height: 250px;
     object-fit: cover;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+.dark-mode section {
+    background-color: #121212 !important;
+    color: white;
+}
