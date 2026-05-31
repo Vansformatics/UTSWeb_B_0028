@@ -9,7 +9,7 @@ darkButton.addEventListener('click', function(){
 
 });
 
-// Alert Pesanan
+// Notifikasi Pesanan
 const pesanBtn = document.querySelectorAll('.pesanBtn');
 
 pesanBtn.forEach(function(button){
@@ -19,5 +19,27 @@ pesanBtn.forEach(function(button){
         alert('Pesanan berhasil ditambahkan');
 
     });
+
+});
+
+// Form Validation
+const form = document.getElementById('contactForm');
+
+form.addEventListener('submit', function(e){
+
+    e.preventDefault();
+
+    const nama = document.getElementById('nama').value.trim();
+
+    if(nama === ''){
+        alert('Nama tidak boleh kosong');
+
+    } else {
+        alert('Pesan berhasil dikirim');
+        form.reset();
+
+    }
+
+    
 
 });
